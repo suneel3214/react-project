@@ -1,8 +1,4 @@
 import React from 'react'
-import location from '../component/images/location.png';
-import chronometer from '../component/images/chronometer.png';
-import email from '../component/images/email.png';
-import phonecall from '../component/images/phone-call.png';
 import customer from '../component/images/customer.jpg';
 
 
@@ -15,13 +11,13 @@ export default function Contact() {
         <h1 className='font-color'>Our Contact Us</h1>
       <div className="row">
         <div className="col-md-4">
-          <span className='font-color' style={{fontSize: "25px"}}><img src={location} alt=""  style={{width: "20px"}} /> Location:</span>
+          <span className='font-color' style={{fontSize: "25px"}}><i class="fa-solid fa-location-dot"></i> Location:</span>
           <p  className='font-color'> A.B Road Guna 473115</p>
-          <span className='font-color' style={{fontSize: "25px"}}><img src={chronometer} alt=""  style={{width: "20px"}} /> Open Hours:</span>
+          <span className='font-color' style={{fontSize: "25px"}}><i class="fa-solid fa-clock"></i> Open Hours:</span>
           <p  className='font-color'> Monday-Saturday:11:00 AM - 2300 PM</p>
-          <span className='font-color' style={{fontSize: "25px"}}><img src={email} alt=""  style={{width: "20px"}} /> Email:</span>
+          <span className='font-color' style={{fontSize: "25px"}}><i class="fa-solid fa-envelope"></i> Email:</span>
           <p  className='font-color'>sunil32145@gmail.com</p>
-          <span className='font-color' style={{fontSize: "25px"}}><img src={phonecall} alt=""  style={{width: "20px"}} /> Call:</span>
+          <span className='font-color' style={{fontSize: "25px"}}><i class="fa-solid fa-phone-volume"></i> Call:</span>
           <p  className='font-color'>+1 5589 55488 55s</p>
           <img src={customer} alt=""  style={{width: "100%",borderRadius: "80%"}} />
         </div>
